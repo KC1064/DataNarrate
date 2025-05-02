@@ -13,7 +13,7 @@ from groq import Groq
 from langchain.chains import RetrievalQA
 
 
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 
 embedding_model = OllamaEmbeddings(model="nomic-embed-text")
