@@ -12,7 +12,7 @@ import argparse
 from tool import create_visualization_from_query, determine_chart_type
 
 # Initialize Groq client
-client = Groq(api_key="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")
+client = Groq(api_key="")
 
 
 embedding_model = OllamaEmbeddings(model="nomic-embed-text")
